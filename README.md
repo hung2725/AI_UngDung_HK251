@@ -53,7 +53,7 @@ song_id,name,artist,image,youtube_url
 456,Bài hát B,Nghệ sĩ B,https://...jpg,https://www.youtube.com/watch?v=...
 ```
 
-### `user_feedback.csv`
+### `user_feedback.csv (có thể chạy file .py để tạo random cho file này)`
 - Dữ liệu tín hiệu người dùng để huấn luyện ma trận tương đồng.
 - Cột mong đợi: `user_id`, `song_id`, `rating`. Nếu thiếu `rating` nhưng có `like`, script sẽ map tự động (`like=1 -> rating=5`, `like=0 -> rating=1`).
 - Cột khuyến nghị: `play_count`, `like`. Ứng dụng dùng để thống kê lượt nghe, suy luận lượt thích/không thích.
