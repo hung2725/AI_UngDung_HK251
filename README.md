@@ -1,4 +1,4 @@
-## V-POP Recommender Dashboard
+## V-POP Recommender
 
 Ứng dụng quản trị V-POP cung cấp hệ thống gợi ý nhạc item-based tối ưu hóa và giao diện Streamlit để khám phá, phân tích, quản lý danh sách yêu thích.
 
